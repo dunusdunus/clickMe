@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Нажми на меня</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(55, 55, 55);
+    }
+    .button {
+      font-size: 2rem;
+      font-weight: 500;
+      height: 300px;
+      width: 300px;
+      border: 1px solid white;
+      border-radius: 50%;
+      cursor: pointer;
+      color: white;
+      background-color: inherit;
+    }
+    .button:hover {
+      background-color: #e6e6e6;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button class="button">Нажми на меня</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
